@@ -1,6 +1,7 @@
 <script setup>
 import Sidebar from "@/Components/Sidebar/Sidebar.vue";
 import Navigation from "@/Components/Navigation/NavBar.vue";
+import Footer from "@/Components/Layout/Footer.vue";
 import Notifications from "@/Components/Util/Notifications.vue";
 
 import {onUnmounted, provide, reactive} from "vue";
@@ -33,7 +34,12 @@ onUnmounted(() => {
 
         <main class="w-full xl:main flex flex-col overflow-y-auto" scroll-region>
             <Navigation/>
-            <slot/>
+            <div class="flex-grow">
+                <slot/>
+            </div>
+            <div class="xl:hidden bg-white border-t border-gray-200 mt-auto">
+                <Footer/>
+            </div>
         </main>
 
         <transition

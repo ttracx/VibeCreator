@@ -6,6 +6,7 @@ import MenuDelimiter from "@/Components/Sidebar/MenuDelimiter.vue"
 import MenuGroupHeader from "@/Components/Sidebar/MenuGroupHeader.vue"
 import MenuGroupBody from "@/Components/Sidebar/MenuGroupBody.vue"
 import DarkButtonLink from "@/Components/Button/DarkButtonLink.vue"
+import Footer from "@/Components/Layout/Footer.vue"
 import PlusIcon from "@/Icons/Plus.vue"
 import GridIcon from "@/Icons/Grid.vue"
 import CalendarIcon from "@/Icons/Calendar.vue"
@@ -130,11 +131,9 @@ import Document from "../../Icons/Document.vue";
             <UserMenu/>
         </div>
 
-        <div class="absolute bottom-0 mb-sm w-full">
+        <div class="absolute bottom-0 w-full">
             <MenuDelimiter/>
-            <div class="flex flex-col items-start px-xl mt-sm">
-                <div class="text-xs text-gray-500 mb-xs">© 2025 VibeCreator powered by <a href="https://vibecaas.com" target="_blank" class="hover:underline">VibeCaaS.com</a> a division of <a href="https://neuralquantum.ai" target="_blank" class="hover:underline">NeuralQuantum.ai</a> LLC. All rights reserved.</div>
-            </div>
+            <Footer class="px-xl"/>
         </div>
     </div>
 </template>
