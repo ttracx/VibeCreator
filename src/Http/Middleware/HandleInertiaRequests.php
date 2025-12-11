@@ -66,6 +66,7 @@ class HandleInertiaRequests extends Middleware
                 'horizon_path' => Config::get('horizon.path'),
             ],
             'mixpost' => [
+                'name' => Config::get('mixpost.name', 'VibeCreator'),
                 'docs_link' => 'https://docs.mixpost.app',
                 'version' => InstalledVersions::getVersion('inovector/mixpost'),
                 'mime_types' => Config::get('mixpost.mime_types'),

@@ -48,7 +48,7 @@ const save = () => {
         </template>
 
         <template #description>
-            <p>With Tenor you can use GIF's directly in Mixpost.</p>
+            <p>With Tenor you can use GIF's directly in VibeCreator.</p>
             <p>
                 <a href="https://console.cloud.google.com/" class="link" target="_blank">
                   Create an App on Google Console</a>.

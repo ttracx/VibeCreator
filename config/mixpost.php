@@ -2,6 +2,11 @@
 
 return [
     /*
+    * Application name
+    */
+    'name' => env('MIXPOST_NAME', 'VibeCreator'),
+
+    /*
     * This option controls the default authentication "guard" for the Mixpost routes
     */
     'auth_guard' => env('MIXPOST_AUTH_GUARD', 'web'),

@@ -56,7 +56,7 @@ class MixpostServiceProvider extends PackageServiceProvider
                 $command
                     ->startWith(function (InstallCommand $command) {
                         $this->writeSeparationLine($command);
-                        $command->line('Mixpost Lite Installation. Self-hosted social media management software.');
+                        $command->line('VibeCreator Installation. Self-hosted social media management software.');
                         $command->line('Laravel version: ' . app()->version());
                         $command->line('PHP version: ' . trim(phpversion()));
                         $command->line(' ');
@@ -73,7 +73,7 @@ class MixpostServiceProvider extends PackageServiceProvider
                     ->endWith(function (InstallCommand $command) {
                         $appUrl = config('app.url');
 
-                        $command->line("Visit the Mixpost UI at $appUrl/mixpost");
+                        $command->line("Visit VibeCreator at $appUrl/mixpost");
                     });
             });
     }

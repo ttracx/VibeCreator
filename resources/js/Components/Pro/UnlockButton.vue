@@ -10,7 +10,7 @@ import LockOpen from "../../Icons/LockOpen.vue";
             <template #icon>
                 <LockOpen/>
             </template>
-            Unlock with Mixpost Pro
+            Unlock with VibeCreator Pro
         </PrimaryButton>
     </a>
 </template>

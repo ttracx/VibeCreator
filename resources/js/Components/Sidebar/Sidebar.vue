@@ -135,12 +135,10 @@ import UpgradePro from "../Pro/UpgradePro.vue";
         <div class="absolute bottom-0 mb-sm w-full">
             <MenuDelimiter/>
             <div class="flex flex-col items-start px-xl mt-sm">
-                <div class="text-sm text-gray-500 mb-xs">Lite version: {{ $page.props.mixpost.version }}</div>
-                <UpgradePro>
-                    <template #trigger>
-                        <ProLabel name="Unlock Pro Features" icon="lock-open"/>
-                    </template>
-                </UpgradePro>
+                <div class="text-sm text-gray-500 mb-xs">{{ $page.props.mixpost.name }} v{{ $page.props.mixpost.version }}</div>
+                <div class="text-xs text-gray-400 leading-relaxed">
+                    © 2025 {{ $page.props.mixpost.name }} powered by <a href="https://vibecaas.com" target="_blank" class="hover:text-gray-600">VibeCaaS.com</a> a division of <a href="https://neuralquantum.ai" target="_blank" class="hover:text-gray-600">NeuralQuantum.ai</a> LLC. All rights reserved.
+                </div>
             </div>
         </div>
     </div>
