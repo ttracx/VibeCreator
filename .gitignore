@@ -13,3 +13,4 @@ node_modules
 resources/dist/hot
 .DS_Store
 resources/dist/*
+resources/dist/vendor/*
