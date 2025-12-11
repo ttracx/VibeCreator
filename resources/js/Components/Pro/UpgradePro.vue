@@ -67,11 +67,11 @@ const features = [
     },
     {
         name: 'Webhooks',
-        desc: 'A powerful feature designed to enhance your workflow by enabling real-time communication between Mixpost and your favorite external services.',
+        desc: 'A powerful feature designed to enhance your workflow by enabling real-time communication between VibeCreator and your favorite external services.',
     },
     {
         name: 'API',
-        desc: 'An advanced feature that opens up a world of possibilities by allowing third-party services to seamlessly communicate with your Mixpost instance.',
+        desc: 'An advanced feature that opens up a world of possibilities by allowing third-party services to seamlessly communicate with your VibeCreator instance.',
     },
     {
         name: 'White Label Logo',
@@ -105,8 +105,8 @@ const features = [
         </template>
 
         <template #body>
-            <p class="font-medium">Maximize your impact with Mixpost Pro features.</p>
-            <p class="mt-xs">Mixpost Pro gives powerful tools for efficient social media management, saving time and boosting
+            <p class="font-medium">Maximize your impact with VibeCreator Pro features.</p>
+            <p class="mt-xs">VibeCreator Pro gives powerful tools for efficient social media management, saving time and boosting
                 collaboration for impactful content creation.</p>
 
             <UnlockButton/>
@@ -114,7 +114,7 @@ const features = [
             <MenuDelimiter class="mt-md"/>
 
             <div class="mt-md">
-                <p>Mixpost <span class="font-medium">Pro</span> gives:</p>
+                <p>VibeCreator <span class="font-medium">Pro</span> gives:</p>
                 <ul class="mt-xs">
                     <template v-for="(feature, index) in features" :key="index">
                         <li class="flex items-center gap-xs mb-xs last:mb-0">

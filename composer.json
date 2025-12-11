@@ -1,6 +1,6 @@
 {
-    "name": "inovector/mixpost",
-    "description": "Self-hosted social media management software.",
+    "name": "vibecaas/vibecreator",
+    "description": "VibeCreator - Self-hosted social media management software powered by VibeCaaS.com",
     "keywords": [
         "social-media-management",
         "content-scheduling",
@@ -8,9 +8,10 @@
         "calendar-scheduling",
         "self-hosted",
         "open-sourced",
-        "mixpost"
+        "vibecreator",
+        "vibecaas"
     ],
-    "homepage": "https://github.com/inovector/mixpost",
+    "homepage": "https://vibecaas.com",
     "license": "MIT",
     "authors": [
         {
