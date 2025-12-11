@@ -1,4 +1,5 @@
 {
+    "name": "vibecreator",
     "private": true,
     "type": "module",
     "scripts": {

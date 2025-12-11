@@ -66,7 +66,7 @@ class HandleInertiaRequests extends Middleware
                 'horizon_path' => Config::get('horizon.path'),
             ],
             'mixpost' => [
-                'docs_link' => 'https://docs.mixpost.app',
+                'docs_link' => 'https://vibecaas.com/docs',
                 'version' => InstalledVersions::getVersion('inovector/mixpost'),
                 'mime_types' => Config::get('mixpost.mime_types'),
                 'settings' => [

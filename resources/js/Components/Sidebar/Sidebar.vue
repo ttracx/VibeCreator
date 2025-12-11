@@ -17,8 +17,6 @@ import UserMenu from "../Navigation/UserMenu.vue";
 import QueueList from "../../Icons/QueueList.vue";
 import InformationCircle from "../../Icons/InformationCircle.vue";
 import Document from "../../Icons/Document.vue";
-import ProLabel from "../Pro/ProLabel.vue";
-import UpgradePro from "../Pro/UpgradePro.vue";
 </script>
 <template>
     <div class="w-full h-full flex flex-col py-2xl bg-white border-r border-gray-200">
@@ -135,12 +133,7 @@ import UpgradePro from "../Pro/UpgradePro.vue";
         <div class="absolute bottom-0 mb-sm w-full">
             <MenuDelimiter/>
             <div class="flex flex-col items-start px-xl mt-sm">
-                <div class="text-sm text-gray-500 mb-xs">Lite version: {{ $page.props.mixpost.version }}</div>
-                <UpgradePro>
-                    <template #trigger>
-                        <ProLabel name="Unlock Pro Features" icon="lock-open"/>
-                    </template>
-                </UpgradePro>
+                <div class="text-xs text-gray-500 mb-xs">© 2025 VibeCreator powered by <a href="https://vibecaas.com" target="_blank" class="hover:underline">VibeCaaS.com</a> a division of <a href="https://neuralquantum.ai" target="_blank" class="hover:underline">NeuralQuantum.ai</a> LLC. All rights reserved.</div>
             </div>
         </div>
     </div>
